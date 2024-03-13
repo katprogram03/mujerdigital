@@ -7,4 +7,4 @@ function ocultar_texto(id) {
         div.style.display = "none";
     }
 }
-console.log("hola mundo");
+console.log("hola mundo adios");
