@@ -1,0 +1,17 @@
+.contenedor_general{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+
+}
+
+.h2{
+    align-items: center;
+}
+
+
+
+footer{
+    background-color: #ffc107;
+    padding: 25px 0px 25px 25px;
+}

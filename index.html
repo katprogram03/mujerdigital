@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./main.js"></script>
+    <title>MI PRIMERA PÁGINA WEB</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 bg-warning">
+                <img src="./Imagenes/logos_version4.png" alt="logo_pagina_lectura" width="35%">
+            </div>
+            <div class="col-md-8 bg-warning">
+                <h1 class="text-end">QUERIDO DIEGO, TE ABRAZA QUIELA</h1>
+            </div>
+        </div>
+        <!--ACA EMPIEZA EL CARRUSEL-->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Imagenes/elena_nuevo2.jpg" class="d-block w-100" alt="Autora libro">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Imagenes/perchero_nuevo2.jpg" class="d-block w-100" alt="Imagen perchero">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Imagenes/llorando calle_nuevo2.jpg" class="d-block w-100" alt="Persona llorando">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--ACÁ EMPIEZA FILA DE TEXTO-->
+    </div>
+
+    <div class="container-fluid">
+        <div class="contenedor_general row justify-content-around m-5">
+            <div class="caja_texto col-4">
+                <h2 class="text-center">15 de noviembre de 1921</h2>
+                <div id="contenido">
+                    <p>Hoy como nunca te extraño y te deseo, Diego, tu
+                        gran corpachón llenaba todo el estudio. No quise
+                        descolgar tu blusón del clavo en la entrada: conserva aún la forma de tus brazos, la de uno de
+                        tus
+                        costados.
+                    </p>
+                </div>
+                <button onclick='ocultar_texto("contenido")' class="btn btn-warning text-light" form="contenido">Ver
+                    más</button>
+            </div>
+
+            <div class="caja_texto_dos col-4">
+                <h2 class="text-center">7 de noviembre de 1921</h2>
+                <div id="contenido2">
+                    <p>Te amo, Diego, ahora mismo siento un dolor
+                        casi insoportable en el pecho. En la calle, así me
+                        ha sucedido, me golpea tu recuerdo y ya no puedo
+                        caminar y algo me duele tanto que tengo que recargarme contra la pared.
+                    </p>
+                </div>
+                <button onclick='ocultar_texto("contenido2")' class="btn btn-warning text-light" form="contenido">Ver
+                    más</button>
+            </div>
+
+            <div class="caja_texto_tres col-4">
+                <h2 class="text-center">19 de octubre 1921</h2>
+                <div id="contenido3">
+                    <p>Recibe esta fotografía hasta que nosveamos. No salió muy bien, pero en ella y en la anterior
+                        tendrás algo de mí.Sé fuerte como lo has sido y perdona la debilidad de tu mujer.
+                    </p>
+                </div>
+                <button onclick='ocultar_texto("contenido3")' class="btn btn-warning text-light" form="contenido">Ver
+                    más</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="container-fluid">
+        <h3 class="text-center">Copyright 2024 ka.morales.mar | <a
+                href="https://www.linkedin.com/in/katia-morales-6050b3195?trk=contact-info" class="link-light">Conoce
+                más</a></h3>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
